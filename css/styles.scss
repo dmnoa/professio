@@ -1,0 +1,6 @@
+@mixin modal($modelWidth) {
+width:$modelWidth;
+}
+.modalWide {
+@include modal(800px);
+}
